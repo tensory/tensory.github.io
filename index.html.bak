@@ -1,0 +1,108 @@
+<html>
+<title>Perfect Forward - Mobile Contract Development</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css"> 
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400' rel='stylesheet' type='text/css'/>
+<style>
+.brand-type {
+    font-family: Montserrat;
+}
+
+.middle {
+    vertical-align: middle;
+}
+
+.condensed {
+    letter-spacing: -2px;
+}
+
+body {
+    /* from w3-light-grey */
+    background-color: #f1f1f1;
+}
+
+.overscroll-wrapper {
+    background-color: white;
+}
+
+.header {
+    background-color: #343434!important;
+}
+
+.w3-jumbo {
+    line-height: 1;
+    padding: 0;
+    margin: 0.55em 0;
+}
+
+/* Text-size media queries */
+.w3-xxlarge {
+    font-size: 1.5em!important;
+}
+
+img.header-logo {
+    height: 32px;
+}
+
+
+
+@media only screen and (min-device-width: 768px) {
+    /* For desktop: */
+    .w3-xxlarge {
+        font-size: 36px!important;
+    }
+
+    img.header-logo {
+        height: 40px;
+    }
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .heroic {
+        font-size: 32px!important;
+    }
+
+}
+@media only screen and (max-width: 768px) {
+    /* For desktop: */
+    .w3-xxlarge {
+        font-size: 36px!important;
+    }
+
+    img.header-logo {
+        height: 40px;
+    }
+}
+
+</style>
+<body>
+    <div class="overscroll-wrapper">
+        <div class="w3-container w3-padding w3-dark-grey w3-card-2 header">
+            <img src="logo.png" class="w3-show-inline-block middle header-logo"/>
+            <span class="w3-xxlarge brand-type middle">Perfect&nbsp;Forward</span>
+        </div>
+        <div class="w3-container">
+            <p class="w3-xlarge">Android app development services.</p>
+            <p class="w3-xlarge">Mobile analytics integration.</p>
+            <p class="w3-xlarge">Web product development.</p>
+            <p class="w3-jumbo brand-type heroic condensed">Ready&nbsp;now.</p>
+        </div>
+        <!-- <hr/> -->
+        <div class="w3-container">
+            <p>
+                Perfect Forward offers implementation of native Android apps, along with mobile-first web product development and analytics integration.
+            </p>
+            <p>
+                With a portfolio of successful launches on Google Play, including a top-rated medication reminder app, Perfect Forward is ready to boost engagement with your product.
+            </p>
+        </div>
+        <div class="w3-container w3-padding-bottom">
+            <p>
+                Want to get started? Contact <a href="mailto:alacenski@gmail.com" class="w3-hover-text-pink">ari@perfectforward.co</a>. 
+            </p>
+        </div>
+    </div>
+    <div class="w3-container"><p class="w3-small">&copy;2016 Ari Lacenski</p></div>
+    </body>
+</html>
