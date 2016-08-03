@@ -36,27 +36,22 @@ body {
 
 img.header-logo {
     height: 32px;
+    margin-bottom: 0!important;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* mobile */
+    .heroic {
+        font-size: 36px!important;
+        font-weight: bold;
+    }
+
+    .condensed {
+        letter-spacing: -1px;
+    }
 }
 
 @media only screen and (min-device-width: 768px) {
-    /* For desktop: */
-    .w3-xxlarge {
-        font-size: 36px!important;
-    }
-
-    img.header-logo {
-        height: 40px;
-    }
-}
-
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    .heroic {
-        font-size: 32px!important;
-    }
-
-}
-@media only screen and (max-width: 768px) {
     /* For desktop: */
     .w3-xxlarge {
         font-size: 36px!important;
