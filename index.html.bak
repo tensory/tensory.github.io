@@ -103,6 +103,7 @@ img.header-logo {
             </p>
         </div>
     </div>
-    <div class="w3-container"><p class="w3-small">&copy;2016 Ari Lacenski</p></div>
+    <div class="w3-container"><p class="w3-small">&copy;2016 Ari Lacenski</p>
+    </div>
     </body>
 </html>
