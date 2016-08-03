@@ -1,0 +1,72 @@
+---
+layout: nil
+---
+
+.brand-type {
+    font-family: 'Montserrat';
+}
+
+.middle {
+    vertical-align: middle;
+}
+
+.condensed {
+    letter-spacing: -2px;
+}
+
+body {
+    /* from w3-light-grey */
+    background-color: #f1f1f1;
+}
+
+.overscroll-wrapper {
+    background-color: white;
+}
+
+.header {
+    background-color: #343434!important;
+}
+
+.w3-jumbo {
+    line-height: 1;
+    padding: 0;
+    margin: 0.55em 0;
+}
+
+/* Text-size media queries */
+.w3-xxlarge {
+    font-size: 1.5em!important;
+}
+
+img.header-logo {
+    height: 32px;
+}
+
+@media only screen and (min-device-width: 768px) {
+    /* For desktop: */
+    .w3-xxlarge {
+        font-size: 36px!important;
+    }
+
+    img.header-logo {
+        height: 40px;
+    }
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .heroic {
+        font-size: 32px!important;
+    }
+
+}
+@media only screen and (max-width: 768px) {
+    /* For desktop: */
+    .w3-xxlarge {
+        font-size: 36px!important;
+    }
+
+    img.header-logo {
+        height: 40px;
+    }
+}
