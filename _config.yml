@@ -18,9 +18,9 @@ email: alacenski@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Android application and mobile Web development for hire.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://example.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://tensory.github.io" # the base hostname & protocol for your site
+twitter_username: tensory
+github_username:  tensory
 
 # Build settings
 markdown: kramdown
