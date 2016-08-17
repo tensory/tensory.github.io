@@ -16,7 +16,32 @@ layout: default
     </p>
 </div>
 <div class="w3-container w3-padding-bottom">
-    <p>
+    <div class="w3-container w3-section w3-border">
+        <label for="contact_name" class="w3-text-grey">Name</label>
+        <input class="w3-input" name="contact_name" type="text" required/>
+        <label for="contact_email" class="w3-text-grey">Email</label>
+        <input class="w3-input" name="contact_email" type="text" required/>
+        <label for="contact_email" class="w3-text-grey">Type of inquiry</label>
+        <input class="w3-input" name="contact_email" type="text" required/>
+    </div>
+
+    <form class="w3-container w3-light-grey w3-border">
+        <label for="contact_name" class="w3-label">Name</label>
+        <input class="w3-input w3-border" name="contact_name" id="contact_name" type="text" autosuggest="name" required/>
+
+        <label for="contact_email" class="w3-label">Email</label>
+        <input class="w3-input w3-border" name="contact_email" id="contact_email" type="email" autosuggest="email" required/>
+        
+        <label for="contact_inquiry" class="w3-label">Interested in</label>
+        <label class="checkbox-group"><input class="w3-checkbox" name="contact_inquiry" type="checkbox" value="android"/> Android App Development</label>
+        <label class="checkbox-group"><input class="w3-checkbox" name="contact_inquiry" type="checkbox" value="web"/> Mobile Web Development</label>
+        <label class="checkbox-group"><input class="w3-checkbox" name="contact_inquiry" type="checkbox" value="analytics"/> Analytics Integration</label>
+
+        
+    </form>
+<!--     <p>
         Want to get started? Contact <a href="mailto:ari@perfectforward.co" class="w3-hover-text-pink">ari@perfectforward.co</a>. 
-    </p>
+<!--     <p>
+        Want to get started? Contact <a href="mailto:ari@perfectforward.co" class="w3-hover-text-pink">ari@perfectforward.co</a>. 
+    </p> -->
 </div>
