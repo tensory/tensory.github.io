@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<!-- <span class="w3-show-inline-block w3-btn w3-right w3-pink middle">Contact</span> -->
 <div class="w3-container">
   <p class="w3-xlarge">Android app development services.</p>
   <p class="w3-xlarge">Mobile analytics integration.</p>
@@ -17,26 +18,21 @@ layout: default
 </div>
 <hr/>
 <div class="w3-container w3-padding-bottom">
-    <h3>Let's move forward!</h3>
-    <form class="w3-container w3-padding w3-light-grey w3-border">
-        <label for="contact_name" class="w3-label">Name</label> <span class="w3-text-grey">(required)</span>
-        <input class="w3-input w3-border" name="contact_name" id="contact_name" type="text" autosuggest="name" required/>
+    <h2 class="w3-xlarge">Let's move forward!</h2>
+    <form id="contact-form" action="#" class="w3-container w3-padding w3-light-grey w3-border">
+        <label for="contact_name" class="w3-label">Name</label>  <span class="w3-text-grey">(required)</span>
+        <input class="w3-input w3-border" name="contact_name" id="contact_name" type="text" autosuggest="name" value="Flo" required/>
 
         <label for="contact_email" class="w3-label">Email</label>  <span class="w3-text-grey required">(required)</span>
-        <input class="w3-input w3-border" name="contact_email" id="contact_email" type="email" autosuggest="email" required/>
+        <input class="w3-input w3-border" name="contact_email" id="contact_email" type="email" autosuggest="email" value="spin@me.around" required/>
 
-        <label for="contact_inquiry" class="w3-label">Interested in</label>
-        <label class="checkbox-group"><input class="w3-checkbox" name="contact_inquiry" type="checkbox" value="android"/> Android App Development</label>
-        <label class="checkbox-group"><input class="w3-checkbox" name="contact_inquiry" type="checkbox" value="web"/> Mobile Web Development</label>
-        <label class="checkbox-group"><input class="w3-checkbox" name="contact_inquiry" type="checkbox" value="analytics"/> Analytics Integration</label>
+        <label for="contact_inquiry" class="w3-label">Interested in</label> <span class="w3-text-grey required">(required)</span>
+        <label class="checkbox-group"><input class="w3-checkbox" name="contact_inquiry" type="checkbox" value="android" required/> Android app development</label>
+        <label class="checkbox-group"><input class="w3-checkbox" name="contact_inquiry" type="checkbox" value="web" required/> Mobile web development</label>
+        <label class="checkbox-group"><input class="w3-checkbox" name="contact_inquiry" type="checkbox" value="analytics" required/> Analytics integration</label>
 
-        <textarea name="contact_more" id="contact_more" class="w3-input w3-border" placeholder="Anything you'd like to add?"></textarea>
+        <textarea name="contact_more" id="contact_more" class="w3-input w3-margin-top w3-border" placeholder="Anything you'd like to add?"></textarea>
         
-        <button class="w3-btn w3-pink w3-right">Send</button>
+        <button class="w3-btn w3-pink w3-right w3-margin-top">Send</button>
     </form>
-<!--     <p>
-        Want to get started? Contact <a href="mailto:ari@perfectforward.co" class="w3-hover-text-pink">ari@perfectforward.co</a>. 
-<!--     <p>
-        Want to get started? Contact <a href="mailto:ari@perfectforward.co" class="w3-hover-text-pink">ari@perfectforward.co</a>. 
-    </p> -->
 </div>

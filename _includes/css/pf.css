@@ -29,6 +29,22 @@ body {
     margin: 0.55em 0;
 }
 
+.checkbox-group {
+    display: block;
+}
+
+#contact-form label.w3-label {
+    color: black;
+    display: inline-block;
+    margin-top: 4px;
+}
+
+#contact-form label.w3-label:first-of-type {
+    margin-top: 0;
+}
+
+/* Media queries */
+
 /* Text-size media queries */
 .w3-xxlarge {
     font-size: 1.5em!important;

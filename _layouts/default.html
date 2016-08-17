@@ -9,5 +9,30 @@
     <div class="w3-container">
         {% include footer.html %}
     </div>
-    </body>
+</body>
+<script type="text/javascript">
+    var validator = {
+        validateCheckboxes: function(checkboxes) {
+            var required = true;
+            for (i = 0; i < checkboxes.length; i++) {
+                if ($(checkboxes[i]).prop('checked') == true) {
+                    required = false;
+                    break;
+                }
+            }
+
+            $.each(checkboxes, function(i, o) {
+                $(o).prop('required', required);
+            });
+        }
+    };
+    $(function() {
+        var checkboxes = $("#contact-form input[name='contact_inquiry']");
+        $.each(checkboxes, function(i, o) {
+            $(o).change(function() {
+                validator.validateCheckboxes(checkboxes);
+            });
+        });
+    });
+</script>
 </html>
