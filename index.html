@@ -15,29 +15,24 @@ layout: default
         With a portfolio of successful launches on Google Play, including a top-rated medication reminder app, Perfect Forward is ready to boost engagement with your product.
     </p>
 </div>
+<hr/>
 <div class="w3-container w3-padding-bottom">
-    <div class="w3-container w3-section w3-border">
-        <label for="contact_name" class="w3-text-grey">Name</label>
-        <input class="w3-input" name="contact_name" type="text" required/>
-        <label for="contact_email" class="w3-text-grey">Email</label>
-        <input class="w3-input" name="contact_email" type="text" required/>
-        <label for="contact_email" class="w3-text-grey">Type of inquiry</label>
-        <input class="w3-input" name="contact_email" type="text" required/>
-    </div>
-
-    <form class="w3-container w3-light-grey w3-border">
-        <label for="contact_name" class="w3-label">Name</label>
+    <h3>Let's move forward!</h3>
+    <form class="w3-container w3-padding w3-light-grey w3-border">
+        <label for="contact_name" class="w3-label">Name</label> <span class="w3-text-grey">(required)</span>
         <input class="w3-input w3-border" name="contact_name" id="contact_name" type="text" autosuggest="name" required/>
 
-        <label for="contact_email" class="w3-label">Email</label>
+        <label for="contact_email" class="w3-label">Email</label>  <span class="w3-text-grey required">(required)</span>
         <input class="w3-input w3-border" name="contact_email" id="contact_email" type="email" autosuggest="email" required/>
-        
+
         <label for="contact_inquiry" class="w3-label">Interested in</label>
         <label class="checkbox-group"><input class="w3-checkbox" name="contact_inquiry" type="checkbox" value="android"/> Android App Development</label>
         <label class="checkbox-group"><input class="w3-checkbox" name="contact_inquiry" type="checkbox" value="web"/> Mobile Web Development</label>
         <label class="checkbox-group"><input class="w3-checkbox" name="contact_inquiry" type="checkbox" value="analytics"/> Analytics Integration</label>
 
+        <textarea name="contact_more" id="contact_more" class="w3-input w3-border" placeholder="Anything you'd like to add?"></textarea>
         
+        <button class="w3-btn w3-pink w3-right">Send</button>
     </form>
 <!--     <p>
         Want to get started? Contact <a href="mailto:ari@perfectforward.co" class="w3-hover-text-pink">ari@perfectforward.co</a>. 
