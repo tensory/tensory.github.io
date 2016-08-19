@@ -36,11 +36,34 @@ body {
 #contact-form label.w3-label {
     color: black;
     display: inline-block;
-    margin-top: 4px;
+    margin-top: 12px;
 }
 
 #contact-form label.w3-label:first-of-type {
     margin-top: 0;
+}
+
+#contact-form {
+    min-width: 380px;
+    max-width: 768px;
+}
+
+#confirm-sent-modal > .w3-modal-content {
+    width: auto;
+    max-width: 500px;
+}
+
+#ack-modal {
+     background-size: 400px 131px; 
+     background-repeat: no-repeat; 
+     background-position: bottom left; 
+     min-height: 250px;
+}
+
+#close-ack-btn {
+    position: absolute; 
+    top: 90px; 
+    right: 44px;
 }
 
 /* Media queries */
