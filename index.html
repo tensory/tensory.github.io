@@ -8,6 +8,7 @@ layout: default
   <p class="w3-xlarge">Web product development.</p>
   <p class="w3-jumbo brand-type heroic condensed">Ready&nbsp;now.</p>
 </div>
+
 <div class="w3-container">
     <p>
         Perfect Forward offers implementation of native Android apps, along with mobile-first web product development and analytics integration.
@@ -20,10 +21,10 @@ layout: default
 <div class="w3-container w3-padding-bottom">
     <h2 class="w3-xxlarge brand-type">Let's move forward.</h2>
     <p>Contact Ari with a few details about your project, and we'll get down to business.</p>
-    <form id="contact-form" action="#" class="w3-container w3-padding w3-light-grey w3-border w3-margin-bottom">
+
+    <form id="contact-form" action="#" class="w3-content w3-padding w3-light-grey w3-border w3-margin-bottom">
         <label for="contact_name" class="w3-label">Name</label>  <span class="w3-text-grey">(required)</span>
         <input class="w3-input w3-border" name="contact_name" id="contact_name" type="text" autocomplete="name" required/>
-
         <label for="contact_email" class="w3-label">Email Address</label>  <span class="w3-text-grey required">(required)</span>
         <input class="w3-input w3-border" name="contact_email" id="contact_email" type="email" autocomplete="email" required/>
 
@@ -31,9 +32,9 @@ layout: default
         <label class="checkbox-group"><input class="w3-checkbox" name="contact_inquiry" type="checkbox" value="android" required/> Android app development</label>
         <label class="checkbox-group"><input class="w3-checkbox" name="contact_inquiry" type="checkbox" value="web" required/> Mobile web development</label>
         <label class="checkbox-group"><input class="w3-checkbox" name="contact_inquiry" type="checkbox" value="analytics" required/> Analytics integration</label>
-
-        <textarea name="contact_more" id="contact_more" class="w3-input w3-margin-top w3-border" placeholder="Anything you'd like to add?"></textarea>
-        
-        <button class="w3-btn w3-pink w3-right w3-margin-top">Send</button>
+        <textarea name="contact_more" id="contact_more" class="w3-input w3-margin-top w3-border" placeholder="Anything you'd like to add?" rows="5"></textarea>
+        <div class="w3-container">
+            <button class="w3-btn w3-pink w3-right w3-margin-top">Send</button>
+        </div>
     </form>
 </div>
