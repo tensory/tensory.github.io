@@ -43,6 +43,7 @@
     $(function() {
         var checkboxes = $("#contact-form input[name='contact_inquiry']");
         var modal = $("#confirm-sent-modal");
+        var form = $("#contact-form");
 
         initializeModal(modal);
 
@@ -52,18 +53,24 @@
             });
         });
 
-        $('#contact-form').submit(function(e) {
+        form.submit(function(e) {
             e.preventDefault();
             $(modal).show();
-            /*
+
+            var data = {};
+            form.serializeArray().forEach(function(currentValue) {
+                this[currentValue["name"]] = currentValue["value"];
+            }, data);
+
+            data["contact_inquiry"] = form.find("input[name='contact_inquiry']:checked").map(function(i, e) {
+                return $(e).prop("value");
+            }).get();
+            
             $.ajax("https://formspree.io/ari@perfectforward.co", {
                 "method": "POST",
                 "dataType": "json",
-                "data": {
-                }
+                "data": data
             });
-            */
-            console.log(e);
         });
     });
 </script>
