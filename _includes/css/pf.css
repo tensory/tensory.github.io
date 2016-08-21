@@ -29,6 +29,45 @@ body {
     margin: 0.55em 0;
 }
 
+.checkbox-group {
+    display: block;
+}
+
+#contact-form label.w3-label {
+    color: black;
+    display: inline-block;
+    margin-top: 12px;
+}
+
+#contact-form label.w3-label:first-of-type {
+    margin-top: 0;
+}
+
+#contact-form > .w3-container {
+    padding: 0;
+}
+
+#confirm-sent-modal > .w3-modal-content {
+    width: auto;
+    max-width: 500px;
+}
+
+#ack-modal {
+    background-image: url('/assets/airplane_sm.png');
+    background-size: 225px 221px;
+    background-repeat: no-repeat; 
+    background-position: 20px -20px; 
+    min-height: 200px;
+}
+
+#close-ack-btn {
+    position: absolute; 
+    bottom: 20px; 
+    right: 20px;
+}
+
+/* Media queries */
+
 /* Text-size media queries */
 .w3-xxlarge {
     font-size: 1.5em!important;
@@ -53,6 +92,14 @@ img.header-logo {
 
 @media only screen and (min-device-width: 768px) {
     /* For desktop: */
+
+    #ack-modal {
+        min-height: 220px;
+        background-position: 100px bottom; 
+        background-size: 300px 248px;
+        background-image: url('/assets/airplane_lg.png');
+    }
+
     .w3-xxlarge {
         font-size: 36px!important;
     }
